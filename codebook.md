@@ -2,7 +2,7 @@
 
 
 ## Variables Description
-Data read from project data files. For description of each data files, refer to README in the project folder.
+For a detailed description of each data file, refer to README file in the project folder.
 
 feature_list - features.txt file
 
@@ -31,6 +31,6 @@ tidy_train - binding train subject, train activity and train set
 
 tidy_set - merged test set and train set
 
-tidy_mean_std - data set with only measurements on the mean and standard deviation for each measurement
+tidy_mean_std - data set with only measurements on the mean and standard deviation for each measure
 
-tidy_avg - independent tidy data set with the average of each variable for each activity and each subject.
+tidy_avg - independent tidy data set with the mean of each variable for each activity and each subject
