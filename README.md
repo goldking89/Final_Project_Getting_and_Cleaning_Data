@@ -1,19 +1,19 @@
 # Final_Project_Getting_and_Cleaning_Data
-# Introduction
-This is for Peer Graded Assignment: Getting and Cleaning Data Course Project.
+## Introduction
+This file is for Pear Graded Assignment: Getting and Cleaning Data Course Project, offered by Johns Hopkins University via Coursera.
 
-Data Source
-Data for this project was obtain from the Coursera assignment instructions. Data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+## Data Source
+Data for this project was obtained from the Coursera assignment instructions. A full description is available in the following link:
 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
 
-Data for the project:
+And data used in this project was from:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
 
-# Analysis File Description
-The run_analysis.R can be run as long as setting your working directory to the UCI HAR Dataset folder. Dplyr package was required to run this script.
+## Analysis Description
+The Getting and Cleaning Data R Script.R file will work when appropriate working directory is set.
 
-Analysis will read all the test data and train data merge them into one data set. Each variables were names accordingly based on the features listed in the features.txt file.
+Analysis will read the training and testing data set. Each variables are named accordingly based on the features listed in the features.txt file.
 
-Using the combined data set, independent tidy data set with the average of each variable for each activity and each subject was created and written into tidydataset.txt file.
+Using the combined data set, a single tidy data set with the average of each variable for each activity and each subject was created and named as tidydata.txt file.
