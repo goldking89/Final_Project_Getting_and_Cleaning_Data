@@ -1,11 +1,6 @@
-# Submission for Coursera Data Science Specialization  
-# Peer Graded Assignment: Getting and Cleaning Data Course Project
-# This script requires dplyr package
-
 # Read feature list and activity names
 features_list <- read.table("features.txt", col.names = c("no","features"))
 activity <- read.table("activity_labels.txt", col.names = c("label", "activity"))
-
 
 # Read test dataset and combine into one dataframe
 subject_test <- read.table("test/subject_test.txt", col.names = "subject")
@@ -15,7 +10,6 @@ y_test_label <- left_join(y_test, activity, by = "label")
 
 tidy_test <- cbind(subject_test, y_test_label, x_test)
 tidy_test <- select(tidy_test, -label)
-
 
 # Read train dataset
 subject_train <- read.table("train/subject_train.txt", col.names = "subject")
